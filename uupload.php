@@ -1,4 +1,9 @@
 <?php
+/*
+In The Name Of God
+Uupload Api
+By : @Psoan
+*/
 header('Content-Type: application/json');
 if(isset($_GET['link']) and !empty($_GET['link'])){
 	$cu = curl_init();
